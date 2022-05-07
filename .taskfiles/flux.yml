@@ -7,3 +7,8 @@ tasks:
     cmds:
       - flux reconcile source git flux-system
     silent: true
+  log:
+    desc: Print the reconciliation logs of all Flux custom resources in your cluster
+    cmds:
+      - flux logs --all-namespaces
+    silent: true
