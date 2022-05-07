@@ -10,5 +10,5 @@ tasks:
   log:
     desc: Print the reconciliation logs of all Flux custom resources in your cluster
     cmds:
-      - flux logs --name=calibre --namespace=default
+      - flux logs --name=sharry --namespace=default
     silent: true
