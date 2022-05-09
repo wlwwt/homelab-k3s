@@ -1,3 +1,10 @@
+# To Merk
+Deployment eines einzelnen Ordners
+kubectl --kubeconfig=./provision/kubeconfig apply -k cluster/apps/monitoring-system
+
+Status anzeigen
+kubectl --kubeconfig=./provision/kubeconfig get pods --namespace monitoring-system -o wide
+
 # Template for deploying k3s backed by Flux
 
 Highly opinionated template for deploying a single [k3s](https://k3s.io) cluster with [Ansible](https://www.ansible.com) and [Terraform](https://www.terraform.io) backed by [Flux](https://toolkit.fluxcd.io/) and [SOPS](https://toolkit.fluxcd.io/guides/mozilla-sops/).

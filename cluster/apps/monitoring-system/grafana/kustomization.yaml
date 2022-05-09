@@ -8,6 +8,6 @@ resources:
   - ingress-traefikCRD.yaml
   - pvc.yaml
   - rbac.yaml
-  - secret.yaml
+  - secret.sops.yaml
   - service.yaml
   - servmonitor-prometheusCRD.yaml
