@@ -10,5 +10,10 @@ tasks:
   log:
     desc: Print the reconciliation logs of all Flux custom resources in your cluster
     cmds:
-      - flux logs --all-namespaces
+      - flux logs --all-namespaces --since=2m
+    silent: true
+  log-namespace:
+    desc: Print the reconciliation logs of a namespace Flux custom resources in your cluster
+    cmds:
+      - flux logs --namespace=monitoring-system
     silent: true
