@@ -6,3 +6,4 @@ resources:
   - system-upgrade-controller
   - traefik
   - kube-prometheus-stack
+  - rook-ceph
