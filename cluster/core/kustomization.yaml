@@ -7,3 +7,4 @@ resources:
   - kube-system
   - metallb-system
   - monitoring-system
+  - rook-ceph
